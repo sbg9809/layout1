@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#head {
+    width: 100%;
+    background-color: rgb(49, 138, 118);
+    padding: 18px 0 18px 0;
+}
+#head h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    padding-left: 20px ;
+}
+
+.section1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.section1 img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+.section2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.section2 img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+#page {
+    margin: 15px 0px 0px 18.8px;
+    width: 32%;
+    float: left;
+    box-shadow: 1px 1px 5px grey;
+    
+}
+#page p {
+    padding: 10px;
+    font-size: 20px;
+}
+ body::after {
+    content: "";
+    clear: both;
+    display: block;
+}
